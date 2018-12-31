@@ -1,0 +1,156 @@
+/*genel css bicimleri*/
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style:none;
+}
+html {
+	font-size: 8px;
+
+}
+body {
+	background-color:#333333;
+	color: white;
+	text-align:center;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.4rem;
+}
+h1,h2,h3,h4 {
+	font-family: 'Aleo', serif;
+	font-size:3rem;
+	padding: 1.6rem 0;
+	font-weight:600;
+
+}
+p {
+	font-size:2rem;
+	padding:1.4rem 0;
+	margin-bottom:2rem;
+
+}
+img {
+	width:100%;
+	height:auto;
+
+}
+
+/*menü biçimi*/
+nav{
+	height:8rem;
+	background-color:#000;
+	position:fixed;
+	opacity:0.8;
+	width:100%;
+	text-align: left;
+}
+#logo {
+	padding-left:2rem;
+	color: white;
+	line-height:8rem;
+	font-size:3rem;
+	font-weight:700;
+
+}
+#menu{
+	display: none;
+	background-color:#333;
+
+
+}
+#menu.ac{
+	display:block;
+
+
+}
+
+
+#bar-icon {
+	color: white;
+	font-size:3rem;
+	position:absolute;
+	right:2rem;
+	top:2rem;
+}
+#menu li {
+	height:3rem;
+	border-bottom:1px solid #404040;
+}
+#menu li a {
+	color:white;
+	font-size:1.3rem;
+	line-height:3rem;
+	padding-left:1.5rem;
+	font-weight:600;
+	letter-spacing:0.3rem;
+
+}
+#menu li a:hover {
+	color:#E05656;
+}
+/*header css biçimi*/
+header {
+	height:50rem;
+
+}
+#bg-resim {
+	background-image:url(../img/genclikmrk1.jpg);
+	background-position:center;
+	position: absolute;
+	margin-top: 8rem;
+	height: 50rem;
+	width:100%;
+	opacity:0.4;
+	z-index:-1;
+}
+#header-icerik {
+	width: 100%;
+	height: 8rem;
+	padding-top:14rem;
+
+}
+.btn {
+	background-color:#E05656;
+	color:white;
+	border:1px solid #666;
+	padding:1.3rem 2.2rem;
+	border-radius:0.5rem;
+	transition:all 0.4s;/*buton hareketinin yavaş çalışmasını sağlıyor*/
+
+
+}
+.btn:hover {
+	background-color:#333;
+	color:#E05656;
+	border:1px solid #E05656;
+
+}
+
+#kurs-baslik {
+	background-color:#eaeaea;
+	color:#333;
+	padding:3rem 2rem;
+
+}
+#kurslar {
+	padding:2rem ;
+}
+.col {
+	padding:0.6rem;
+	background-color: white;
+	color:#333;
+	margin-bottom:1.5rem;
+
+}
+/*iletisim bicimleri*/
+.kutu{
+	padding: 5rem;
+}
+.kutu:first-child {
+    background-color: #11373A;
+}
+.kutu:last-child {
+	background-color:#112938;
+}
